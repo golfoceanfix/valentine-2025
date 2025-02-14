@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="backgroundMusic" loop>
+    <source src="music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="container">
+    <div class="card">
+      <div class="front">
+        <div class="ribbon"></div>
+        <div class="heart">❤️</div>
+        <h2>Happy Valentine's Day!</h2>
+        <p>Click to open your special card</p>
+        <div class="love-meter">
+          <div class="love-meter-fill"></div>
+        </div>
+      </div>
+      <div class="back">
+        <h2>To My Valentine</h2>
+        <div id="poem" class="message">
+          Roses are red,<br>
+          Violets are blue,<br>
+          This card is special,<br>
+          Just like you! ❤️
+        </div>
+        <p id="message" class="message">You make every day brighter! 💕</p>
+        <div class="buttons">
+          <button id="showLove">Show Love</button>
+          <button id="playMusic">Play Music</button>
+          <button id="makeSparkle">Sparkle</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
